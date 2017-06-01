@@ -19,6 +19,16 @@
           <div class="address">
             <label for="useraddress">Please enter your address</label>
             <input id="useraddress" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="beverage">Beverage</label>
+            <select class="form-control" id="beverage">
+              <option></option>
+              <option>Coffee</option>
+              <option>Tea</option>
+              <option>Kombucha</option>
+              <option>Water</option>
+            </select>
             <button type="submit" class="btn">Submit</button>
           </div>
 
@@ -27,8 +37,9 @@
       <div id="postcard">
         <div class="row">
           <div class="col-lg-6">
-            <p>Dear <span class="username"></span>,</p>
-            <p>Thanks for your purchase!</p>
+            <p>Dear <span class="username"></span>, thanks for your purchase!</p>
+            <p> You ordered:</p>
+            <p><span class="beverage"></span></p>
           </div>
           <div class="col-lg-6">
             <div id="address">
