@@ -1,0 +1,24 @@
+
+body {
+  background-color: lightBlue;
+}
+
+#postcard {
+  display: none;
+  border: 2px solid black;
+}
+
+#address {
+  text-align: center;
+  padding-top: 60px;
+}
+
+img {
+  height: 15%;
+  width: 15%;
+  float: right;
+}
+
+.row {
+  column-rule-style: 2px solid black;
+}

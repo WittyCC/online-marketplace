@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel ="stylesheet" type="text/css" media="all">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Lynn and Witty's Online Shop</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Online Marketplace</h1>
+      <div id="blanks">
+        <form>
+          <div class="name">
+            <label for="username">Please enter your full name</label>
+            <input id="username" class="form-control" type="text">
+          </div>
+          <div class="address">
+            <label for="useraddress">Please enter your address</label>
+            <input id="useraddress" class="form-control" type="text">
+            <button type="submit" class="btn">Submit</button>
+          </div>
+
+        </form>
+      </div>
+      <div id="postcard">
+        <div class="row">
+          <div class="col-lg-6">
+            <p>Dear <span class="username"></span>,</p>
+            <p>Thanks for your purchase!</p>
+          </div>
+          <div class="col-lg-6">
+            <div id="address">
+              <p><span class="username"></span></p>
+              <p><span class="useraddress"></span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
